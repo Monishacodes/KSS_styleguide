@@ -1,0 +1,64 @@
+
+
+/*
+Footer Navigation 
+
+Consists out of components grouped together. They rely entirely on nesting,
+so make sure people are aware of this.
+
+Markup: <footer class="footer">
+    <div class="container text-center">
+        <ul class="footer-links p-0">    
+           <li>
+                <a href="www.facebook.com">Facebook</a>
+            </li>
+            <li>
+                <a href="www.twitter.com">Twitter</a>
+            </li>
+            <li>
+                <a href="www.google.com">Google+</a>
+            </li>
+            <li>
+                <a href="www.linkedin.com">LinkedIn</a>
+            </li>
+            <li>
+                <a href="www.behance.com">Behance</a>
+            </li>
+            <li>
+                <a href="www.Dribble.com">Dribble</a>
+            </li>
+            <li>
+                <a href="www.Github.com">GitHub</a>
+            </li>
+        </ul>
+    </div>
+</footer><br>
+
+Style guide: Navigation.footer
+*/
+
+.footer {
+    background: $footer-blue;
+
+    &-links {
+        margin : 33px 0 25px;
+        li{
+            padding: 10px 22px;
+            display: inline-block;
+            cursor: pointer;
+            a {
+                //font-size: $f-large;
+                font-size: 22px;
+                text-decoration: none;
+                @include transition(all, 0.4s, ease, 0s );
+                color: $white;
+        
+                &:hover {
+                    color: $light-blue;
+                   @include transition(all, 0.4s, ease, 0s );
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

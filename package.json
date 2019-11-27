@@ -1,0 +1,24 @@
+{
+  "name": "styleguidenew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "dependencies": {
+    "install": "^0.12.2",
+    "kss": "^3.0.0-beta.25",
+    "michelangelo": "^0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.0.2"
+  },
+  "scripts": {
+    "kss": "kss --config kss-config.json"
+  },
+  "author": "",
+  "license": "ISC"
+}

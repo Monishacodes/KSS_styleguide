@@ -1,0 +1,910 @@
+@import url("file:///D:/Monisha_projects/testhtml/sass/vendor/bootstrap/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto+Condensed:300,400");
+/* line 29, ../../sass/4-base/_variable.scss */
+.text-orange {
+  color: #eb7d4b; }
+
+/* line 32, ../../sass/4-base/_variable.scss */
+.text-black {
+  color: #000; }
+
+/* line 35, ../../sass/4-base/_variable.scss */
+.text-white {
+  color: #fff; }
+
+/* line 38, ../../sass/4-base/_variable.scss */
+.art-pink {
+  background: #cc227e; }
+
+/* line 41, ../../sass/4-base/_variable.scss */
+.art-yellow {
+  background: #cc8a22; }
+
+/* line 44, ../../sass/4-base/_variable.scss */
+.art-blue {
+  background: #203d9b; }
+
+/* line 12, ../../sass/4-base/_typography.scss */
+.text-center {
+  text-align: center; }
+/* line 15, ../../sass/4-base/_typography.scss */
+.text-right {
+  text-align: right; }
+/* line 18, ../../sass/4-base/_typography.scss */
+.text-sans {
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 4, ../../sass/4-base/_common.scss */
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+/* line 9, ../../sass/4-base/_common.scss */
+p {
+  font-size: 16px; }
+
+/* line 12, ../../sass/4-base/_common.scss */
+a {
+  text-decoration: none; }
+
+/* line 16, ../../sass/4-base/_common.scss */
+ul {
+  list-style: none;
+  letter-spacing: 1.2px;
+  display: -webkit-inline-box; }
+
+/* line 24, ../../sass/4-base/_common.scss */
+.kss-nav__subnav {
+  display: block; }
+
+/* line 34, ../../sass/4-base/_common.scss */
+.container {
+  max-width: 1110px;
+  padding: 0; }
+
+/* line 40, ../../sass/4-base/_common.scss */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+/* line 46, ../../sass/4-base/_common.scss */
+.row {
+  margin: 0; }
+
+/* line 51, ../../sass/4-base/_common.scss */
+.m-0 {
+  margin: 0; }
+/* line 54, ../../sass/4-base/_common.scss */
+.mt-0 {
+  margin-top: 0; }
+/* line 57, ../../sass/4-base/_common.scss */
+.mb-0 {
+  margin-bottom: 0; }
+/* line 60, ../../sass/4-base/_common.scss */
+.mr-0 {
+  margin-right: 0; }
+/* line 63, ../../sass/4-base/_common.scss */
+.ml-0 {
+  margin-left: 0; }
+/* line 68, ../../sass/4-base/_common.scss */
+.mb-10 {
+  margin-bottom: 10px; }
+/* line 71, ../../sass/4-base/_common.scss */
+.mb-60 {
+  margin-bottom: 60px; }
+/* line 74, ../../sass/4-base/_common.scss */
+.mb-53 {
+  margin-bottom: 53px; }
+/* line 77, ../../sass/4-base/_common.scss */
+.mb-145 {
+  margin-bottom: 145px; }
+/* line 83, ../../sass/4-base/_common.scss */
+.mt-30 {
+  margin-top: 30px; }
+/* line 86, ../../sass/4-base/_common.scss */
+.mt-27 {
+  margin-top: 27px; }
+
+/* line 95, ../../sass/4-base/_common.scss */
+.pt-107 {
+  padding-top: 107px; }
+/* line 98, ../../sass/4-base/_common.scss */
+.pt-43 {
+  padding-top: 38px; }
+/* line 101, ../../sass/4-base/_common.scss */
+.pt-50 {
+  padding-top: 50px; }
+/* line 106, ../../sass/4-base/_common.scss */
+.pr-0 {
+  padding-right: 0; }
+/* line 111, ../../sass/4-base/_common.scss */
+.pl-30 {
+  padding-left: 30px; }
+/* line 115, ../../sass/4-base/_common.scss */
+.p-0 {
+  padding: 0; }
+
+/* line 119, ../../sass/4-base/_common.scss */
+.markup {
+  font-size: 18px;
+  background: #666;
+  color: #fff;
+  padding: 12px;
+  cursor: pointer; }
+
+@-webkit-keyframes anim {
+  to {
+    width: 100%; } }
+@-moz-keyframes anim {
+  to {
+    width: 100%; } }
+@-o-keyframes anim {
+  to {
+    width: 100%; } }
+@keyframes anim {
+  to {
+    width: 100%; } }
+/* line 26, ../../sass/4-base/_kssoverwrite.scss */
+.kss-section__item, .kss-section__item--depth-2 {
+  font-size: 2.3em; }
+/* line 29, ../../sass/4-base/_kssoverwrite.scss */
+.kss-section__description p {
+  font-size: 1.1em; }
+/* line 32, ../../sass/4-base/_kssoverwrite.scss */
+.kss-section__content p {
+  font-size: 1em; }
+/* line 35, ../../sass/4-base/_kssoverwrite.scss */
+.kss-section__markup pre[class*=language-] {
+  font-size: 1.2em; }
+/* line 39, ../../sass/4-base/_kssoverwrite.scss */
+.kss-navigation {
+  background: #87509c; }
+  /* line 41, ../../sass/4-base/_kssoverwrite.scss */
+  .kss-navigation__title {
+    font-size: 1.7em;
+    background: url("../../img/logo.png") no-repeat;
+    background-position: center;
+    padding: 20%; }
+/* line 48, ../../sass/4-base/_kssoverwrite.scss */
+.kss-modifiers__heading {
+  font-size: 1.3em; }
+/* line 51, ../../sass/4-base/_kssoverwrite.scss */
+.kss-nav__item a {
+  font-size: 1.1em;
+  color: #f9f9f9; }
+/* line 55, ../../sass/4-base/_kssoverwrite.scss */
+.kss-nav__subnav .kss-nav__item a {
+  font-size: 1em; }
+
+/*
+Layout 
+
+
+<div class="body">
+    <header>Header</header>
+    <main>Main</main>
+    <footer>Footer</footer>
+</div>
+   
+
+Styleguide: Layout
+*/
+/* line 14, ../../sass/1-Layout/_layout.scss */
+.body {
+  font-size: 30px;
+  color: #fff;
+  text-align: center; }
+  /* line 18, ../../sass/1-Layout/_layout.scss */
+  .body main {
+    background: #999;
+    height: 350px;
+    padding: 11%; }
+  /* line 23, ../../sass/1-Layout/_layout.scss */
+  .body footer, .body header {
+    background: #666;
+    height: 150px;
+    padding: 4%; }
+
+/* line 14, ../../sass/buttons/_button.scss */
+.theme-btn {
+  color: #fff;
+  font-size: 17.8px;
+  font-weight: 100;
+  text-decoration: none;
+  background: #ccc;
+  padding: 26px 90px 23px 81px;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  display: inline-block;
+  border: none;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  line-height: 1; }
+  /* line 33, ../../sass/buttons/_button.scss */
+  .theme-btn.btn {
+    text-align: center; }
+  /* line 36, ../../sass/buttons/_button.scss */
+  .theme-btn:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none; }
+  /* line 43, ../../sass/buttons/_button.scss */
+  .theme-btn.default {
+    border-bottom: 4px solid #999; }
+    /* line 45, ../../sass/buttons/_button.scss */
+    .theme-btn.default:hover {
+      background: #999; }
+  /* line 49, ../../sass/buttons/_button.scss */
+  .theme-btn.orange {
+    background: #eb7d4b;
+    border-bottom: 4px solid #c86a40; }
+    /* line 52, ../../sass/buttons/_button.scss */
+    .theme-btn.orange:hover {
+      background: #c86a40; }
+  /* line 56, ../../sass/buttons/_button.scss */
+  .theme-btn.light-blue {
+    background: #30bae7;
+    border-bottom: 4px solid #299ec5; }
+    /* line 59, ../../sass/buttons/_button.scss */
+    .theme-btn.light-blue:hover {
+      background: #299ec5; }
+
+/* line 178, ../../sass/colors/_color.scss */
+.box {
+  height: 150px;
+  width: 200px;
+  margin: 12px auto;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #666; }
+  /* line 179, ../../sass/colors/_color.scss */
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px; }
+  /* line 189, ../../sass/colors/_color.scss */
+  .box-color {
+    height: 50%;
+    width: 100%;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px; }
+    /* line 193, ../../sass/colors/_color.scss */
+    .box-color.white {
+      background: #fff;
+      border-bottom: 1px solid #666; }
+    /* line 197, ../../sass/colors/_color.scss */
+    .box-color.black {
+      background: #000; }
+    /* line 200, ../../sass/colors/_color.scss */
+    .box-color.red {
+      background: red; }
+    /* line 203, ../../sass/colors/_color.scss */
+    .box-color.orange {
+      background: #eb7d4b; }
+    /* line 206, ../../sass/colors/_color.scss */
+    .box-color.purple {
+      background: #87509c; }
+    /* line 209, ../../sass/colors/_color.scss */
+    .box-color.light-blue {
+      background: #30bae7; }
+    /* line 212, ../../sass/colors/_color.scss */
+    .box-color.blue {
+      background: #3c5499; }
+    /* line 215, ../../sass/colors/_color.scss */
+    .box-color.art-yellow {
+      background: #cc8a22; }
+    /* line 218, ../../sass/colors/_color.scss */
+    .box-color.art-pink {
+      background: #cc227e; }
+    /* line 221, ../../sass/colors/_color.scss */
+    .box-color.art-blue {
+      background: #203d9b; }
+    /* line 224, ../../sass/colors/_color.scss */
+    .box-color.footer-blue {
+      background: #344b8e; }
+    /* line 227, ../../sass/colors/_color.scss */
+    .box-color.dark-text {
+      background: #474b53; }
+    /* line 230, ../../sass/colors/_color.scss */
+    .box-color.border-orange {
+      background: #c86a40; }
+    /* line 233, ../../sass/colors/_color.scss */
+    .box-color.border-lightblue {
+      background: #299ec5; }
+    /* line 236, ../../sass/colors/_color.scss */
+    .box-color.dark-gray {
+      background: #666; }
+    /* line 239, ../../sass/colors/_color.scss */
+    .box-color.light-gray {
+      background: #ccc; }
+    /* line 242, ../../sass/colors/_color.scss */
+    .box-color.gray-900 {
+      background: #999; }
+    /* line 245, ../../sass/colors/_color.scss */
+    .box-color.gray-100 {
+      background: #f9f9f9; }
+  /* line 249, ../../sass/colors/_color.scss */
+  .box-content {
+    text-align: center; }
+    /* line 251, ../../sass/colors/_color.scss */
+    .box-content-name {
+      font-weight: 900;
+      font-size: 23px; }
+
+/*
+Articles 
+
+ Consists out of components grouped together. They rely entirely on nesting,
+so make sure people are aware of this.
+
+Markup: 
+<div class="article mb-60">
+    <div class="article-img art-blue text-center">
+        <img src="../img/sec3.png" alt="">
+    </div>
+    <div class="article-content">
+        <h3 class="  mt-0 mb-10">Drupal development services</h3>
+        <p class="article-content-subtitle mb-10  mt-0 text-orange">drupal development</p>
+        <p class="article-content-text mb-10  mt-0">At the Drupal Association, we value highly the
+            commitment
+            made by those who volunteer their time to make these events </p>
+    </div>
+</div>
+
+Styleguide: Components.article
+*/
+/* line 24, ../../sass/2-Components/_article.scss */
+.article {
+  font-family: 'Open Sans', sans-serif; }
+  /* line 26, ../../sass/2-Components/_article.scss */
+  .article-img {
+    float: left;
+    width: 130px;
+    height: 130px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    margin-right: 32px;
+    position: relative; }
+    /* line 33, ../../sass/2-Components/_article.scss */
+    .article-img img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      height: auto;
+      width: auto; }
+    /* line 42, ../../sass/2-Components/_article.scss */
+    .article-img-content h3 {
+      font-size: 18px;
+      background: transparent;
+      font-weight: bold; }
+    /* line 47, ../../sass/2-Components/_article.scss */
+    .article-img-content-subtitle {
+      font-size: 16px;
+      font-style: italic; }
+    /* line 51, ../../sass/2-Components/_article.scss */
+    .article-img-content-text {
+      color: #666;
+      font-size: 16px;
+      line-height: 1.2;
+      letter-spacing: 0.09px; }
+
+/*
+Search 
+
+ Consists out of components grouped together. They rely entirely on nesting,
+so make sure people are aware of this.
+
+Markup: 
+<section class="s-block ">
+    <form action="get">
+        <div class="s-block-f">
+            <input type="text" class="s-block-f-input text-sans w-100" name="search" id=""
+                placeholder="Search...">
+        </div>
+    </form>
+</section>
+
+Styleguide: Components.search
+*/
+/* line 21, ../../sass/2-Components/_search.scss */
+::placeholder {
+  font-size: 15px;
+  color: #ccc; }
+
+/* line 26, ../../sass/2-Components/_search.scss */
+.s-block {
+  background: #f9f9f9; }
+  /* line 28, ../../sass/2-Components/_search.scss */
+  .s-block-f {
+    position: relative; }
+    /* line 30, ../../sass/2-Components/_search.scss */
+    .s-block-f-input {
+      padding: 15.5px 30px;
+      border: 1px solid #ccc;
+      -webkit-border-radius: 33px;
+      -o-border-radius: 33px;
+      -moz-border-radius: 33px;
+      -ms-border-radius: 33px;
+      border-radius: 33px;
+      box-shadow: 0px 2px 0px #f5f5f5;
+      font-size: 15px;
+      width: 100%; }
+      /* line 42, ../../sass/2-Components/_search.scss */
+      .s-block-f-input:active {
+        outline: none; }
+    /* line 46, ../../sass/2-Components/_search.scss */
+    .s-block-f::after {
+      position: absolute;
+      content: "";
+      background: url("../img/search.png") no-repeat;
+      background-position: right;
+      height: 50px;
+      width: 50px;
+      right: 23px;
+      top: 0%;
+      z-index: 3; }
+
+/*
+Search Link 
+
+ Consists out of components grouped together. They rely entirely on nesting,
+so make sure people are aware of this.
+
+Markup: 
+ <ul class="article-tabs ">
+    <li>
+        <a href="">ALL</a>
+    </li>
+    <li>
+        <a href="">DRUPAL</a>
+    </li>
+    <li>
+        <a href="">JAVA</a>
+    </li>
+    <li>
+        <a href="">WORDPRESS</a>
+    </li>
+</ul>
+
+Styleguide: Components.searchlink
+*/
+/* line 26, ../../sass/2-Components/_searchlinks.scss */
+.article-tabs {
+  margin-top: 13px;
+  padding-left: 0; }
+  /* line 29, ../../sass/2-Components/_searchlinks.scss */
+  .article-tabs li {
+    font-size: 20px;
+    padding-right: 53px; }
+    /* line 33, ../../sass/2-Components/_searchlinks.scss */
+    .article-tabs li:hover a::after {
+      content: "";
+      background: #eb7d4b;
+      height: 4px;
+      width: 0%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      -webkit-animation-duration: 0.3s;
+      -webkit-animation-timing-function: ease-in;
+      -webkit-animation-fill-mode: forwards;
+      -webkit-animation-name: anim;
+      -moz-animation-duration: 0.3s;
+      -moz-animation-timing-function: ease-in;
+      -moz-animation-fill-mode: forwards;
+      -moz-animation-name: anim;
+      -o-animation-duration: 0.3s;
+      -o-animation-timing-function: ease-in;
+      -o-animation-fill-mode: forwards;
+      -o-animation-name: anim;
+      animation-duration: 0.3s;
+      animation-name: anim;
+      animation-timing-function: ease-in;
+      animation-fill-mode: forwards;
+      right: 0; }
+    /* line 45, ../../sass/2-Components/_searchlinks.scss */
+    .article-tabs li a {
+      text-decoration: none;
+      padding-bottom: 4px;
+      color: #000;
+      font-weight: bold;
+      position: relative; }
+
+/*
+Typography 
+
+
+The heading tags that are used in the Website
+<h1>This is heading h1</h1>
+<h2>This is heading h2</h2>
+<h3>This is heading h3</h3>
+<h4>This is heading h4</h4>
+<h5>This is heading h5</h5>
+<h6>This is heading h6</h6>
+   
+
+<h3>The paragraph text</h3>
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, pariatur! Facilis voluptates omnis pariatur ipsam ullam totam asperiores dolorum quisquam consequatur a! Ullam dolorem possimus repellat commodi tempora! Mollitia, consequatur?
+
+<h3>The unordered list</h3>
+<ol>
+        <li>lorem ipsum</li>
+        <li>lorem ipsum</li>
+        <li>lorem ipsum</li>
+        <li>lorem ipsum</li>
+        <li>lorem ipsum</li>
+</ol>
+
+Styleguide: Typography
+*/
+/* line 28, ../../sass/5-Typography/_typography.scss */
+ol {
+  font-size: 1.4rem !important; }
+
+/*
+Input Elements 
+
+ Consists out of components grouped together. They rely entirely on nesting,
+so make sure people are aware of this.
+
+Input type text and textarea
+
+
+Markup:
+<section class="contact">    
+    <div class="contact-form">
+        <form action="get" class="container">
+            <div class="p-relative mt-30">
+                <input type="text" name="name" required>
+                <label for="">Your Name <span>*</span></label>
+            </div>           
+            <div class="p-relative">
+               <textarea name="" id="" cols="30" rows="9" class="postion-relative" required></textarea>
+                <label for="">Your Message <span>*</span></label>
+            </div>       
+        </form>
+    </div>
+</section>
+
+
+Styleguide: Form.formelements
+*/
+/* line 31, ../../sass/6-Form/_formelements.scss */
+.contact {
+  background: #3c5499; }
+  /* line 37, ../../sass/6-Form/_formelements.scss */
+  .contact-form .p-relative {
+    position: relative; }
+  /* line 40, ../../sass/6-Form/_formelements.scss */
+  .contact-form input,
+  .contact-form textarea {
+    padding: 21px 25px 20px;
+    background: rgba(0, 0, 0, 0.2);
+    border: none;
+    width: 100%;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    color: #fff;
+    margin-bottom: 12px; }
+    /* line 49, ../../sass/6-Form/_formelements.scss */
+    .contact-form input:focus + label,
+    .contact-form textarea:focus + label {
+      margin-top: -22px;
+      font-size: 70%;
+      -webkit-transition: all 0.4s ease 0s;
+      -moz-transition: all 0.4s ease 0s;
+      -o-transition: all 0.4s ease 0s;
+      transition: all 0.4s ease 0s; }
+  /* line 55, ../../sass/6-Form/_formelements.scss */
+  .contact-form textarea {
+    height: 200px; }
+  /* line 59, ../../sass/6-Form/_formelements.scss */
+  .contact-form label {
+    position: absolute;
+    color: #fff;
+    left: 42px;
+    top: 19px;
+    font-weight: 300;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; }
+    /* line 66, ../../sass/6-Form/_formelements.scss */
+    .contact-form label span {
+      color: red; }
+
+/* 
+Main Navigation
+
+Consists out of components grouped together. They rely entirely on nesting,
+so make sure people are aware of this.
+
+Markup:     <nav class="navbar pt-50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 navbar-header col-xs-3">
+                        <a class="navbar-brand" href="#">
+                            <img src="../img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-9 text-right col-xs-9 pr-0">
+                        <ul class="navbar-menu">
+                            <li>
+                                <a href="" class="text-white">HOME</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-white">ABOUT</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-white">WORK</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-white">BLOG</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-white">CONTACT</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void()" class="icon">
+                                    <span class="icon-bar upper"></span>
+                                    <span class="icon-bar middle"></span>
+                                    <span class="icon-bar bottom"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+Style guide: Navigation.main
+
+*/
+/* line 51, ../../sass/7-Navigation/_main.scss */
+.navbar {
+  background-color: #87509c; }
+  /* line 53, ../../sass/7-Navigation/_main.scss */
+  .navbar-menu {
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0; }
+    /* line 58, ../../sass/7-Navigation/_main.scss */
+    .navbar-menu li {
+      padding: 12px 20px;
+      display: inline-block;
+      cursor: pointer;
+      line-height: 1; }
+      /* line 64, ../../sass/7-Navigation/_main.scss */
+      .navbar-menu li:not(:last-child):hover {
+        background-color: rgba(0, 0, 0, 0.2);
+        -webkit-border-radius: 7px;
+        -o-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        border-radius: 7px; }
+      /* line 72, ../../sass/7-Navigation/_main.scss */
+      .navbar-menu li a {
+        font-weight: 100;
+        font-size: 15px; }
+        /* line 76, ../../sass/7-Navigation/_main.scss */
+        .navbar-menu li a:hover, .navbar-menu li a:focus {
+          color: #fff;
+          text-decoration: unset; }
+    /* line 83, ../../sass/7-Navigation/_main.scss */
+    .navbar-menu-brand {
+      padding: 0;
+      display: block;
+      margin-top: 6px; }
+
+/*
+Header Nav with hover
+
+
+ Take your cursor over link to see the hover effect
+
+Markup:     <ul class="navbar-menu">
+                <li>
+                    <a href="" class="text-white">HOME</a>
+                </li>
+                <li>
+                    <a href="" class="text-white">ABOUT</a>
+                </li>
+                <li>
+                    <a href="" class="text-white">WORK</a>
+                </li>
+                <li>
+                    <a href="" class="text-white">BLOG</a>
+                </li>
+                <li>
+                    <a href="" class="text-white">CONTACT</a>
+                </li>
+                <li>
+                    <a href="javascript:void()" class="icon">
+                        <span class="icon-bar upper"></span>
+                        <span class="icon-bar middle"></span>
+                        <span class="icon-bar bottom"></span>
+                    </a>
+                </li>
+            </ul>
+
+Style guide: Navigation.main.header
+*/
+/* line 37, ../../sass/7-Navigation/_headernav.scss */
+.navbar-menu {
+  background-color: #87509c; }
+
+/*
+Slider 
+
+ Consists out of components grouped together. They rely entirely on nesting,
+so make sure people are aware of this.
+
+Markup: 
+        <div class="slider">
+            <div class="slider-content">
+                <h2 class="text-center  text-sans">
+                    Hi there! We are the new kids on the block <br>
+                    and we build awesome websites and mobile apps.
+                </h2>
+                <div class="text-center mb-145">
+                    <a href="#" class="theme-btn orange ">
+                        Work with us!
+                    </a>
+                </div>
+            </div>
+            <div class="slider-content">
+                <h2 class="text-center text-sans">
+                    Hi there! We are the new kids on the block <br>
+                    and we build awesome websites and mobile apps.
+                </h2>
+                <div class="text-center mb-145">
+                    <a href="#" class="theme-btn light-blue ">
+                        Work with us!
+                    </a>
+                </div>
+            </div>
+        </div>
+ 
+Style guide: Components.slider
+*/
+/* line 37, ../../sass/2-Components/_slider.scss */
+.slider {
+  background: #87509c; }
+  /* line 39, ../../sass/2-Components/_slider.scss */
+  .slider-content {
+    margin: auto; }
+  /* line 42, ../../sass/2-Components/_slider.scss */
+  .slider h2 {
+    margin-top: 143px;
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+    line-height: 1; }
+  /* line 51, ../../sass/2-Components/_slider.scss */
+  .slider .slick-slider {
+    cursor: grab; }
+    /* line 54, ../../sass/2-Components/_slider.scss */
+    .slider .slick-slider:focus {
+      outline: none; }
+  /* line 58, ../../sass/2-Components/_slider.scss */
+  .slider .slick-prev {
+    left: 0; }
+    /* line 60, ../../sass/2-Components/_slider.scss */
+    .slider .slick-prev::before {
+      background-image: url("../img/left-arrow.png");
+      content: "";
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+      background-size: cover; }
+  /* line 69, ../../sass/2-Components/_slider.scss */
+  .slider .slick-next {
+    right: 0; }
+    /* line 71, ../../sass/2-Components/_slider.scss */
+    .slider .slick-next::before {
+      background-image: url("../img/right-arrow.png");
+      content: "";
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+      background-size: cover; }
+  /* line 80, ../../sass/2-Components/_slider.scss */
+  .slider .slick-arrow {
+    width: 50px;
+    height: 50px; }
+
+/*
+Footer Navigation 
+
+ Consists out of components grouped together. They rely entirely on nesting,
+so make sure people are aware of this.
+
+Markup: <footer class="footer">
+    <div class="container text-center">
+        <ul class="footer-links p-0">    
+           <li>
+                <a href="www.facebook.com">Facebook</a>
+            </li>
+            <li>
+                <a href="www.twitter.com">Twitter</a>
+            </li>
+            <li>
+                <a href="www.google.com">Google+</a>
+            </li>
+            <li>
+                <a href="www.linkedin.com">LinkedIn</a>
+            </li>
+            <li>
+                <a href="www.behance.com">Behance</a>
+            </li>
+            <li>
+                <a href="www.Dribble.com">Dribble</a>
+            </li>
+            <li>
+                <a href="www.Github.com">GitHub</a>
+            </li>
+        </ul>
+    </div>
+</footer><br>
+
+Style guide: Navigation.footer
+*/
+/* line 40, ../../sass/7-Navigation/_footer.scss */
+.footer {
+  background: #344b8e; }
+  /* line 43, ../../sass/7-Navigation/_footer.scss */
+  .footer-links {
+    margin: 33px 0 25px; }
+    /* line 45, ../../sass/7-Navigation/_footer.scss */
+    .footer-links li {
+      padding: 10px 22px;
+      display: inline-block;
+      cursor: pointer; }
+      /* line 49, ../../sass/7-Navigation/_footer.scss */
+      .footer-links li a {
+        font-size: 22px;
+        text-decoration: none;
+        -webkit-transition: all 0.4s ease 0s;
+        -moz-transition: all 0.4s ease 0s;
+        -o-transition: all 0.4s ease 0s;
+        transition: all 0.4s ease 0s;
+        color: #fff; }
+        /* line 56, ../../sass/7-Navigation/_footer.scss */
+        .footer-links li a:hover {
+          color: #30bae7;
+          -webkit-transition: all 0.4s ease 0s;
+          -moz-transition: all 0.4s ease 0s;
+          -o-transition: all 0.4s ease 0s;
+          transition: all 0.4s ease 0s;
+          text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

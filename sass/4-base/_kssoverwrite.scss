@@ -1,0 +1,59 @@
+// .kss-navigation__title {
+//     font-size: 1.7em;
+// }
+
+// .kss-nav__subnav .kss-nav__item a{
+//     font-size: 1em;
+//}
+// .kss-section__item , .kss-section__item--depth-2{
+//     font-size: 2.3em;
+// }
+// .kss-section__description p {
+//     font-size: 1.1em;
+
+// }
+// .kss-section__content p {
+//     font-size: 1em;
+// }
+// .kss-modifiers__heading {
+//     font-size: 1.3em;
+// }
+// .kss-section__markup pre[class*=language-] {
+//     font-size: 1.2em;
+// }
+.kss{
+    &-section{
+        &__item, &__item--depth-2 {
+            font-size: 2.3em;
+        }
+        &__description p {
+            font-size: 1.1em;
+        }
+        &__content p {
+            font-size: 1em;
+        }
+        &__markup pre[class*=language-]{
+            font-size: 1.2em;
+        }
+    }
+    &-navigation{
+        background: $purple;
+        &__title {
+            font-size: 1.7em;
+            background: url('../../img/logo.png') no-repeat;
+            background-position: center;
+            padding: 20%;
+        }
+    }
+    &-modifiers__heading {
+        font-size: 1.3em;
+    }
+    &-nav__item a {
+        font-size: 1.1em;
+        color: $gray-100;
+    }
+    &-nav__subnav .kss-nav__item  a {
+        font-size: 1em;
+    }
+    
+}

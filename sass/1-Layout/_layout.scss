@@ -1,0 +1,28 @@
+/*
+Layout 
+
+
+<div class="body">
+    <header>Header</header>
+    <main>Main</main>
+    <footer>Footer</footer>
+</div>
+   
+
+Styleguide: Layout
+*/
+.body {
+    font-size: 30px;
+    color: $white;
+    text-align: center;
+    main {
+        background: $gray-900;
+        height: 350px;
+        padding:11%;
+    }
+    footer, header {
+        background: $dark-gray;
+        height: 150px;
+        padding: 4%;
+    }
+}

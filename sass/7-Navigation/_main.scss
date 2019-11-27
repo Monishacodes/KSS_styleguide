@@ -1,0 +1,89 @@
+
+/* 
+Main Navigation
+
+Consists out of components grouped together. They rely entirely on nesting,
+so make sure people are aware of this.
+
+Markup:     <nav class="navbar pt-50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 navbar-header col-xs-3">
+                        <a class="navbar-brand" href="#">
+                            <img src="../img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-9 text-right col-xs-9 pr-0">
+                        <ul class="navbar-menu">
+                            <li>
+                                <a href="" class="text-white">HOME</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-white">ABOUT</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-white">WORK</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-white">BLOG</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-white">CONTACT</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void()" class="icon">
+                                    <span class="icon-bar upper"></span>
+                                    <span class="icon-bar middle"></span>
+                                    <span class="icon-bar bottom"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+Style guide: Navigation.main
+
+*/ 
+
+
+    .navbar {       
+        background-color: $purple;  
+        &-menu {
+            margin-left: auto;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            li {
+                padding:12px 20px;
+                display: inline-block;
+                cursor: pointer;
+                line-height: 1;
+                &:not(:last-child) {
+                    &:hover {
+                        background-color: rgba(0, 0, 0, 0.2);
+                        @include border-radius(7px);
+                    }
+                }
+                // &:nth-child(5){
+                //     margin-right: 13px;
+                // }
+                a {
+                    // font-size: $f-small;
+                    font-weight: 100;
+                    font-size: 15px;
+                    &:hover,
+                    &:focus {
+                        color: $white;
+                        text-decoration: unset;
+                    }
+                }
+            }
+            &-brand {
+                padding: 0;
+                display: block;
+                margin-top: 6px;
+            }
+        }
+    }

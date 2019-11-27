@@ -1,0 +1,85 @@
+
+/*
+Slider 
+
+ Consists out of components grouped together. They rely entirely on nesting,
+so make sure people are aware of this.
+
+Markup: 
+        <div class="slider">
+            <div class="slider-content">
+                <h2 class="text-center  text-sans">
+                    Hi there! We are the new kids on the block <br>
+                    and we build awesome websites and mobile apps.
+                </h2>
+                <div class="text-center mb-145">
+                    <a href="#" class="theme-btn orange ">
+                        Work with us!
+                    </a>
+                </div>
+            </div>
+            <div class="slider-content">
+                <h2 class="text-center text-sans">
+                    Hi there! We are the new kids on the block <br>
+                    and we build awesome websites and mobile apps.
+                </h2>
+                <div class="text-center mb-145">
+                    <a href="#" class="theme-btn light-blue ">
+                        Work with us!
+                    </a>
+                </div>
+            </div>
+        </div>
+ 
+Style guide: Components.slider
+*/
+
+.slider {
+    background: $purple;
+  &-content {
+      margin: auto;
+  }
+  h2 {
+      margin-top: 143px;
+      margin-bottom: 60px;
+      font-weight: 400;
+      font-size: $f-xlarge;
+      color: $white;
+      line-height: 1;
+  }
+  .slick {
+      &-slider {
+          cursor: grab;
+
+          &:focus {
+              outline: none;
+          }
+      }
+      &-prev {
+          left:0;
+          &::before {
+              background-image: url('../img/left-arrow.png');
+              content: '' ;
+              width: 100%;
+              height: 100%;
+              display: inline-block;
+              background-size: cover;
+          }
+      }
+      &-next {
+          right: 0;
+          &::before {
+              background-image: url('../img/right-arrow.png');
+              content: '' ;
+              width: 100%;
+              height: 100%;
+              display: inline-block;
+              background-size: cover;
+          }
+      }
+      &-arrow {
+          width: 50px;
+          height: 50px;
+      }
+  }
+}

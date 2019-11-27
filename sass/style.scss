@@ -1,0 +1,34 @@
+
+// Styleguide 
+
+@import url('file:///D:/Monisha_projects/testhtml/sass/vendor/bootstrap/bootstrap.min.css');
+
+//@import '4-base/reset';
+@import '4-base/variable';
+@import '4-base/typography';
+@import '4-base/mixins';
+@import '4-base/common';
+@import '4-base/animation';
+@import '4-base/kssoverwrite';
+
+
+@import '1-Layout/layout';
+
+@import 'buttons/button';
+@import 'colors/color';
+@import '2-Components/article';
+@import '2-Components/search';
+@import '2-Components/searchlinks';
+
+
+@import '5-Typography/typography';
+
+@import '6-Form/formelements';
+
+@import '7-Navigation/main';
+@import '7-Navigation/headernav';
+
+@import '2-Components/slider';
+@import '7-Navigation/footer';
+
+

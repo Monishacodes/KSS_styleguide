@@ -1,0 +1,59 @@
+
+/*
+Search 
+
+ Consists out of components grouped together. They rely entirely on nesting,
+so make sure people are aware of this.
+
+Markup: 
+<section class="s-block ">
+    <form action="get">
+        <div class="s-block-f">
+            <input type="text" class="s-block-f-input text-sans w-100" name="search" id=""
+                placeholder="Search...">
+        </div>
+    </form>
+</section>
+
+Styleguide: Components.search
+*/
+
+::placeholder {
+    font-size: $f-xsmall;
+    color: $light-gray;
+}
+
+.s-block {
+    background: $gray-100;
+    &-f{       
+        position: relative;
+        &-input {
+            padding: 15.5px 30px;
+            border: 1px solid $light-gray;
+            //border:1px solid #f5f5f5;
+            @include border-radius(33px);
+            // box-shadow: 0px 2px 0px $light-gray;
+            box-shadow: 0px 2px 0px #f5f5f5;
+            font-size: $f-xsmall;
+            width: 100%;
+    
+            
+    
+            &:active {
+                outline: none;
+            }
+        }
+        &::after {
+            position: absolute;
+            content: "";
+            background: url('../img/search.png') no-repeat;
+            background-position: right;
+            height: 50px;
+            width: 50px;
+            // right: 6%;
+            right: 23px;
+            top: 0%;
+            z-index: 3;
+        }
+    }
+}

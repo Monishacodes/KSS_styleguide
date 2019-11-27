@@ -1,0 +1,256 @@
+// Colors
+//
+// Colors that has been used all over the website are given below:
+//
+//
+// <h2> Some Basic color that has been used over website </h2>
+// <div class="box-container">
+//          <div class="box">
+//                <div class="box-color white">
+//                </div>
+//                <div class="box-content">
+//                  <p class="box-content-name">White</p>
+//                  <p>$white</p>
+//                  <p>$fff</p>
+//                </div>
+//          </div>
+//          <div class="box">
+//                <div class="box-color black">
+//                </div>
+//                <div class="box-content">
+//                  <p class="box-content-name">Black</p>
+//                  <p>$black</p>
+//                  <p>$000</p>
+//                </div>
+//          </div>
+//          <div class="box">
+//                <div class="box-color red">
+//                </div>
+//                <div class="box-content">
+//                  <p class="box-content-name">Red</p>
+//                  <p>$red</p>
+//                  <p>$red</p>
+//                </div>
+//          </div>
+// </div>
+// <h2> Some themes color that has been used over website </h2>             
+// <div class="box-container">
+//          <div class="box">
+//                <div class="box-color footer-blue">
+//                </div>
+//                <div class="box-content">
+//                  <p class="box-content-name">Footer Blue</p>
+//                  <p>$footer-blue</p>
+//                  <p>#344b8e</p>
+//                </div>
+//          </div>
+//          <div class="box">
+//                <div class="box-color blue">
+//                </div>
+//                <div class="box-content">
+//                  <p class="box-content-name">Blue</p>
+//                  <p>$blue</p>
+//                  <p>#3c5499</p>
+//                </div>
+//          </div>
+//          <div class="box">
+//                <div class="box-color art-blue">
+//                </div>
+//                <div class="box-content">
+//                  <p class="box-content-name">Dark Blue</p>
+//                  <p>$art-blue</p>
+//                  <p>#203d9b</p>
+//                </div>
+//          </div>
+//          <div class="box">
+//                <div class="box-color border-lightblue">
+//                </div>
+//                <div class="box-content">
+//                  <p class="box-content-name">Border LightBlue</p>
+//                  <p>$border-lightblue</p>
+//                  <p>#299ec5</p>
+//                </div>
+//          </div>
+//          <div class="box">
+//                <div class="box-color light-blue">
+//                </div>
+//                <div class="box-content">
+//                  <p class="box-content-name">Light Blue</p>
+//                  <p>$light-blue</p>
+//                  <p>#30bae7</p>
+//                </div>
+//          </div>
+//          <div class="box">
+//                <div class="box-color dark-text">
+//                </div>
+//                <div class="box-content">
+//                  <p class="box-content-name">Dark text Gray</p>
+//                  <p>$dark-text</p>
+//                  <p>#474b53</p>
+//                </div>
+//          </div>
+//          <div class="box">
+//                <div class="box-color dark-gray">
+//                </div>
+//                <div class="box-content">
+//                  <p class="box-content-name">Dark Gray</p>
+//                  <p>$dark-gray</p>
+//                  <p>#666</p>
+//                </div>
+//          </div>
+//          <div class="box">
+//                <div class="box-color gray-900">
+//                </div>
+//                <div class="box-content">
+//                  <p class="box-content-name">Gray 900</p>
+//                  <p>$gray-900</p>
+//                  <p>#999</p>
+//                </div>
+//          </div>
+//          <div class="box">
+//                <div class="box-color light-gray">
+//                </div>
+//                <div class="box-content">
+//                  <p class="box-content-name">Light Gray</p>
+//                  <p>$light-gray</p>
+//                  <p>#ccc</p>
+//                </div>
+//          </div>
+//          <div class="box">
+//                <div class="box-color gray-100">
+//                </div>
+//                <div class="box-content">
+//                  <p class="box-content-name">Gray 100</p>
+//                  <p>$gray-100</p>
+//                  <p>#f9f9f9</p>
+//                </div>
+//          </div>
+//          <div class="box">
+//                <div class="box-color purple">
+//                </div>
+//                <div class="box-content">
+//                  <p class="box-content-name">Purple</p>
+//                  <p>$purple</p>
+//                  <p>#87509c</p>
+//                </div>
+//          </div>
+//          <div class="box">
+//                <div class="box-color art-pink">
+//                </div>
+//                <div class="box-content">
+//                  <p class="box-content-name">Pink</p>
+//                  <p>$pink</p>
+//                  <p>#cc227e</p>
+//                </div>
+//          </div>
+//          <div class="box">
+//                <div class="box-color border-orange">
+//                </div>
+//                <div class="box-content">
+//                  <p class="box-content-name">Border Orange</p>
+//                  <p>$border-orange</p>
+//                  <p>#c86a40</p>
+//                </div>
+//          </div>
+//          <div class="box">
+//                <div class="box-color orange">
+//                </div>
+//                <div class="box-content">
+//                  <p class="box-content-name">Orange</p>
+//                  <p>$orange</p>
+//                  <p>#eb7d4b</p>
+//                </div>
+//          </div>
+//          <div class="box">
+//                <div class="box-color art-yellow">
+//                </div>
+//                <div class="box-content">
+//                  <p class="box-content-name">Dark Yellow</p>
+//                  <p>$art-yellow</p>
+//                  <p>#cc8a22</p>
+//                </div>
+//          </div>
+// </div>
+//
+// Styleguide 
+// Color theme for the website
+
+.box {
+    &-container{
+        display: flex;
+        flex-wrap: wrap;
+       margin: 12px
+    }
+    height: 150px;
+    width: 200px;
+    margin: 12px auto;    
+    @include border-radius(4px);
+    border: 1px solid $dark-gray;
+    &-color {
+        height: 50%;
+        width: 100%;
+        @include border-radius(4px);       
+        &.white{
+            background: $white;   
+            border-bottom: 1px solid $dark-gray;        
+        }
+        &.black {
+            background: $black;           
+        }
+        &.red {
+            background: red;
+        } 
+        &.orange {
+            background: $orange;
+        }
+        &.purple{
+            background: $purple;
+        } 
+        &.light-blue{
+            background: $light-blue;
+        } 
+        &.blue {
+            background: $blue;
+        }  
+        &.art-yellow {
+            background: $art-yellow;
+        }
+        &.art-pink {
+            background: $art-pink;
+        } 
+        &.art-blue {
+            background: $art-blue;
+        }    
+        &.footer-blue {
+            background: $footer-blue;
+        }      
+        &.dark-text{
+            background: $dark-text;
+        }
+        &.border-orange {
+            background: $border-orange;
+        }
+        &.border-lightblue{
+            background: $border-lightblue;
+        }
+        &.dark-gray{
+            background: $dark-gray;
+        }
+        &.light-gray{
+            background: $light-gray;
+        }
+        &.gray-900{
+            background: $gray-900;
+        }
+        &.gray-100{
+            background: $gray-100;
+        }
+    }
+    &-content {
+        text-align: center;
+        &-name{
+            font-weight: 900;
+        font-size: 23px;
+        }
+    }
+}

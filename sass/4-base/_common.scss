@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto+Condensed:300,400');
+
+
+body{
+    margin: 0;
+    font-family:'Roboto Condensed', sans-serif;
+}
+//default paragraph
+p {
+    font-size: $f-small;
+}
+a {
+    text-decoration: none;
+}
+//default unordered list
+ul {
+    list-style: none;
+    letter-spacing: 1.2px;
+    display: -webkit-inline-box;
+}
+// .kss-section span, .kss-section p {
+//     font-size: 1.5rem;
+// }
+.kss-nav__subnav {
+    display: block;
+}
+// .kss-nav__subnav .kss-nav__item a {
+    
+// }
+// .kss-nav__item a {
+//     font-size: 1.7rem;
+// }
+//wrapper
+.container {
+    max-width: 1110px;
+    padding: 0;
+}
+
+//clearfix for float
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+
+.row {
+    margin: 0
+}
+.m{
+    //margin null 
+    &-0{
+        margin: 0;
+    }
+    &t-0{
+        margin-top: 0;
+    }   
+    &b-0{
+        margin-bottom: 0;
+    }
+    &r-0{
+        margin-right: 0;
+    }   
+    &l-0{
+        margin-left: 0;
+    }
+    //margin bottom
+    &b {
+        &-10{
+            margin-bottom: 10px;
+        }
+        &-60 {
+            margin-bottom: 60px;
+        }
+        &-53{
+            margin-bottom: 53px;
+        }
+        &-145 {
+            margin-bottom: 145px;
+        }
+    }
+    //margin top 
+    &t{
+        &-30{
+            margin-top: 30px;
+        }  
+        &-27 {
+            margin-top: 27px;
+        }      
+    }
+}
+//padding
+.p{
+    //padding top
+    &t{
+        &-107 {
+            padding-top: 107px;
+        }
+        &-43 {
+            padding-top: 38px;
+        }
+        &-50 {
+            padding-top: 50px;
+        }
+    }
+    &r {
+        &-0{
+            padding-right: 0;
+        }
+    }
+    &l {
+        &-30 {
+            padding-left: 30px;
+        }
+    }
+    &-0{
+        padding: 0;
+    }
+}
+.markup {
+    font-size: $f-normal;
+    background: $dark-gray;
+    color: $white;
+    padding:12px;
+    cursor: pointer;
+}
+
+//mixin for border-radius
+
+@mixin border-radius($radius){
+    -webkit-border-radius: $radius;
+    -o-border-radius:$radius;
+    -moz-border-radius:$radius;
+    -ms-border-radius:$radius;
+    border-radius: $radius;
+}
+
+
+//mixin transition 
+@mixin transition($property, $duration, $timing-function, $delay) {
+    -webkit-transition: $property $duration $timing-function $delay;
+       -moz-transition: $property $duration $timing-function $delay;
+         -o-transition: $property $duration $timing-function $delay;
+            transition: $property $duration $timing-function $delay;
+}

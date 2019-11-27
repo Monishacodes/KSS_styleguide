@@ -1,0 +1,59 @@
+/*
+Articles 
+
+ Consists out of components grouped together. They rely entirely on nesting,
+so make sure people are aware of this.
+
+Markup: 
+<div class="article mb-60">
+    <div class="article-img art-blue text-center">
+        <img src="../img/sec3.png" alt="">
+    </div>
+    <div class="article-content">
+        <h3 class="  mt-0 mb-10">Drupal development services</h3>
+        <p class="article-content-subtitle mb-10  mt-0 text-orange">drupal development</p>
+        <p class="article-content-text mb-10  mt-0">At the Drupal Association, we value highly the
+            commitment
+            made by those who volunteer their time to make these events </p>
+    </div>
+</div>
+
+Styleguide: Components.article
+*/
+
+        .article {
+            font-family: 'Open Sans', sans-serif;
+            &-img {
+                float: left;    
+                width: 130px;
+                height: 130px;
+                @include border-radius(4px);
+                margin-right: 32px; 
+                position: relative;
+                    img {                        
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%,-50%);
+                        height: auto;
+                        width: auto;
+                    }                    
+            &-content {
+                h3{
+                    font-size:$f-normal;
+                    background: transparent; 
+                    font-weight: bold;                              
+                }
+                &-subtitle {
+                    font-size:$f-small; 
+                    font-style: italic;         
+                }
+                &-text {
+                    color: $dark-gray;
+                    font-size: $f-small;                    
+                    line-height: 1.2;
+                    letter-spacing: 0.09px;
+                }        
+            }
+        }
+    }
